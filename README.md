@@ -18,3 +18,4 @@
 | **Student** | Anhelina Tatsiuk |
 | **Group** | PZ-46 |
 | **Variant** | 20 |
+| **Seed** | 20457 |
