@@ -1,0 +1,412 @@
+[
+  {
+    "file": "lic_1",
+    "image_sha256": "093a832356184006",
+    "taken": "2026:10:24 23:06:52",
+    "camera": "iPhone 17",
+    "engine": "EasyOCR",
+    "engine_version": "1.7.2",
+    "params": {
+      "prep": "raw",
+      "steps": []
+    },
+    "reading": "385590",
+    "ground_truth": "385520",
+    "cer": 0.167,
+    "confidence": 0.841,
+    "seconds": 11.97,
+    "valid_format": true,
+    "needs_review": false
+  },
+  {
+    "file": "lic_1",
+    "image_sha256": "093a832356184006",
+    "taken": "2026:10:24 23:06:52",
+    "camera": "iPhone 17",
+    "engine": "PaddleOCR",
+    "engine_version": "3.7.0",
+    "params": {
+      "prep": "raw",
+      "steps": []
+    },
+    "reading": "",
+    "ground_truth": "385520",
+    "cer": 1.0,
+    "confidence": 0.0,
+    "seconds": 23.64,
+    "valid_format": false,
+    "needs_review": true
+  },
+  {
+    "file": "lic_1",
+    "image_sha256": "093a832356184006",
+    "taken": "2026:10:24 23:06:52",
+    "camera": "iPhone 17",
+    "engine": "EasyOCR",
+    "engine_version": "1.7.2",
+    "params": {
+      "prep": "prep",
+      "steps": [
+        "upscale",
+        "sharpen"
+      ]
+    },
+    "reading": "385520",
+    "ground_truth": "385520",
+    "cer": 0.0,
+    "confidence": 0.799,
+    "seconds": 12.69,
+    "valid_format": true,
+    "needs_review": false
+  },
+  {
+    "file": "lic_1",
+    "image_sha256": "093a832356184006",
+    "taken": "2026:10:24 23:06:52",
+    "camera": "iPhone 17",
+    "engine": "PaddleOCR",
+    "engine_version": "3.7.0",
+    "params": {
+      "prep": "prep",
+      "steps": [
+        "upscale",
+        "sharpen"
+      ]
+    },
+    "reading": "",
+    "ground_truth": "385520",
+    "cer": 1.0,
+    "confidence": 0.0,
+    "seconds": 243.3,
+    "valid_format": false,
+    "needs_review": true
+  },
+  {
+    "file": "lic_2",
+    "image_sha256": "fddb4fa40893c1a0",
+    "taken": "2026:10:24 23:05:45",
+    "camera": "iPhone 17",
+    "engine": "EasyOCR",
+    "engine_version": "1.7.2",
+    "params": {
+      "prep": "raw",
+      "steps": []
+    },
+    "reading": "2649660",
+    "ground_truth": "264966",
+    "cer": 0.167,
+    "confidence": 0.933,
+    "seconds": 11.81,
+    "valid_format": true,
+    "needs_review": false
+  },
+  {
+    "file": "lic_2",
+    "image_sha256": "fddb4fa40893c1a0",
+    "taken": "2026:10:24 23:05:45",
+    "camera": "iPhone 17",
+    "engine": "PaddleOCR",
+    "engine_version": "3.7.0",
+    "params": {
+      "prep": "raw",
+      "steps": []
+    },
+    "reading": "26966",
+    "ground_truth": "264966",
+    "cer": 0.167,
+    "confidence": 0.77,
+    "seconds": 24.19,
+    "valid_format": false,
+    "needs_review": true
+  },
+  {
+    "file": "lic_2",
+    "image_sha256": "fddb4fa40893c1a0",
+    "taken": "2026:10:24 23:05:45",
+    "camera": "iPhone 17",
+    "engine": "EasyOCR",
+    "engine_version": "1.7.2",
+    "params": {
+      "prep": "prep",
+      "steps": [
+        "upscale",
+        "sharpen"
+      ]
+    },
+    "reading": "2649606",
+    "ground_truth": "264966",
+    "cer": 0.167,
+    "confidence": 0.87,
+    "seconds": 20.51,
+    "valid_format": true,
+    "needs_review": false
+  },
+  {
+    "file": "lic_2",
+    "image_sha256": "fddb4fa40893c1a0",
+    "taken": "2026:10:24 23:05:45",
+    "camera": "iPhone 17",
+    "engine": "PaddleOCR",
+    "engine_version": "3.7.0",
+    "params": {
+      "prep": "prep",
+      "steps": [
+        "upscale",
+        "sharpen"
+      ]
+    },
+    "reading": "696",
+    "ground_truth": "264966",
+    "cer": 0.5,
+    "confidence": 0.332,
+    "seconds": 269.01,
+    "valid_format": false,
+    "needs_review": true
+  },
+  {
+    "file": "lic_3",
+    "image_sha256": "5ed5adad72a85ca3",
+    "taken": "2026:10:24 23:08:22",
+    "camera": "iPhone 17",
+    "engine": "EasyOCR",
+    "engine_version": "1.7.2",
+    "params": {
+      "prep": "raw",
+      "steps": []
+    },
+    "reading": "061410321",
+    "ground_truth": "01741032",
+    "cer": 0.375,
+    "confidence": 0.7,
+    "seconds": 10.17,
+    "valid_format": false,
+    "needs_review": true
+  },
+  {
+    "file": "lic_3",
+    "image_sha256": "5ed5adad72a85ca3",
+    "taken": "2026:10:24 23:08:22",
+    "camera": "iPhone 17",
+    "engine": "PaddleOCR",
+    "engine_version": "3.7.0",
+    "params": {
+      "prep": "raw",
+      "steps": []
+    },
+    "reading": "01032",
+    "ground_truth": "01741032",
+    "cer": 0.375,
+    "confidence": 0.808,
+    "seconds": 20.68,
+    "valid_format": false,
+    "needs_review": true
+  },
+  {
+    "file": "lic_3",
+    "image_sha256": "5ed5adad72a85ca3",
+    "taken": "2026:10:24 23:08:22",
+    "camera": "iPhone 17",
+    "engine": "EasyOCR",
+    "engine_version": "1.7.2",
+    "params": {
+      "prep": "prep",
+      "steps": [
+        "upscale",
+        "sharpen"
+      ]
+    },
+    "reading": "0141032",
+    "ground_truth": "01741032",
+    "cer": 0.125,
+    "confidence": 0.672,
+    "seconds": 10.89,
+    "valid_format": true,
+    "needs_review": false
+  },
+  {
+    "file": "lic_3",
+    "image_sha256": "5ed5adad72a85ca3",
+    "taken": "2026:10:24 23:08:22",
+    "camera": "iPhone 17",
+    "engine": "PaddleOCR",
+    "engine_version": "3.7.0",
+    "params": {
+      "prep": "prep",
+      "steps": [
+        "upscale",
+        "sharpen"
+      ]
+    },
+    "reading": "01741732",
+    "ground_truth": "01741032",
+    "cer": 0.125,
+    "confidence": 0.718,
+    "seconds": 104.05,
+    "valid_format": true,
+    "needs_review": false
+  },
+  {
+    "file": "lic_4",
+    "image_sha256": "a72832ce7654ddcf",
+    "taken": "2026:10:24 23:05:06",
+    "camera": "iPhone 17",
+    "engine": "EasyOCR",
+    "engine_version": "1.7.2",
+    "params": {
+      "prep": "raw",
+      "steps": []
+    },
+    "reading": "140620",
+    "ground_truth": "140620",
+    "cer": 0.0,
+    "confidence": 0.912,
+    "seconds": 15.77,
+    "valid_format": true,
+    "needs_review": false
+  },
+  {
+    "file": "lic_4",
+    "image_sha256": "a72832ce7654ddcf",
+    "taken": "2026:10:24 23:05:06",
+    "camera": "iPhone 17",
+    "engine": "PaddleOCR",
+    "engine_version": "3.7.0",
+    "params": {
+      "prep": "raw",
+      "steps": []
+    },
+    "reading": "40620",
+    "ground_truth": "140620",
+    "cer": 0.167,
+    "confidence": 0.818,
+    "seconds": 32.56,
+    "valid_format": false,
+    "needs_review": true
+  },
+  {
+    "file": "lic_4",
+    "image_sha256": "a72832ce7654ddcf",
+    "taken": "2026:10:24 23:05:06",
+    "camera": "iPhone 17",
+    "engine": "EasyOCR",
+    "engine_version": "1.7.2",
+    "params": {
+      "prep": "prep",
+      "steps": [
+        "upscale",
+        "sharpen"
+      ]
+    },
+    "reading": "140620",
+    "ground_truth": "140620",
+    "cer": 0.0,
+    "confidence": 1.0,
+    "seconds": 18.9,
+    "valid_format": true,
+    "needs_review": false
+  },
+  {
+    "file": "lic_4",
+    "image_sha256": "a72832ce7654ddcf",
+    "taken": "2026:10:24 23:05:06",
+    "camera": "iPhone 17",
+    "engine": "PaddleOCR",
+    "engine_version": "3.7.0",
+    "params": {
+      "prep": "prep",
+      "steps": [
+        "upscale",
+        "sharpen"
+      ]
+    },
+    "reading": "",
+    "ground_truth": "140620",
+    "cer": 1.0,
+    "confidence": 0.0,
+    "seconds": 389.16,
+    "valid_format": false,
+    "needs_review": true
+  },
+  {
+    "file": "lic_5",
+    "image_sha256": "21bb2f978aaf8a9e",
+    "taken": "2026:10:24 23:04:54",
+    "camera": "iPhone 17",
+    "engine": "EasyOCR",
+    "engine_version": "1.7.2",
+    "params": {
+      "prep": "raw",
+      "steps": []
+    },
+    "reading": "1864666",
+    "ground_truth": "184666",
+    "cer": 0.167,
+    "confidence": 0.941,
+    "seconds": 17.04,
+    "valid_format": true,
+    "needs_review": false
+  },
+  {
+    "file": "lic_5",
+    "image_sha256": "21bb2f978aaf8a9e",
+    "taken": "2026:10:24 23:04:54",
+    "camera": "iPhone 17",
+    "engine": "PaddleOCR",
+    "engine_version": "3.7.0",
+    "params": {
+      "prep": "raw",
+      "steps": []
+    },
+    "reading": "8466",
+    "ground_truth": "184666",
+    "cer": 0.333,
+    "confidence": 0.614,
+    "seconds": 29.04,
+    "valid_format": false,
+    "needs_review": true
+  },
+  {
+    "file": "lic_5",
+    "image_sha256": "21bb2f978aaf8a9e",
+    "taken": "2026:10:24 23:04:54",
+    "camera": "iPhone 17",
+    "engine": "EasyOCR",
+    "engine_version": "1.7.2",
+    "params": {
+      "prep": "prep",
+      "steps": [
+        "upscale",
+        "sharpen"
+      ]
+    },
+    "reading": "198646606",
+    "ground_truth": "184666",
+    "cer": 0.5,
+    "confidence": 0.908,
+    "seconds": 18.11,
+    "valid_format": false,
+    "needs_review": true
+  },
+  {
+    "file": "lic_5",
+    "image_sha256": "21bb2f978aaf8a9e",
+    "taken": "2026:10:24 23:04:54",
+    "camera": "iPhone 17",
+    "engine": "PaddleOCR",
+    "engine_version": "3.7.0",
+    "params": {
+      "prep": "prep",
+      "steps": [
+        "upscale",
+        "sharpen"
+      ]
+    },
+    "reading": "",
+    "ground_truth": "184666",
+    "cer": 1.0,
+    "confidence": 0.0,
+    "seconds": 352.27,
+    "valid_format": false,
+    "needs_review": true
+  }
+]
